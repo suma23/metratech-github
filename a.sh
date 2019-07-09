@@ -1,7 +1,7 @@
 #!/bin/bash
-a=5
-if [ a == 5 ];then
-  print "greater than 5"
+a=6
+if [ "$a" =  "5" ];then
+  echo "greater than 5"
 else
-  print "lesser than 5"
+  echo "lesser than 5"
 fi
