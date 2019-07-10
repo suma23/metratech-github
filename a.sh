@@ -5,3 +5,4 @@ if [ "$a" =  "5" ];then
 else
   echo "lesser than 5"
 fi
+exit 0
